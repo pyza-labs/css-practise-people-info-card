@@ -1,0 +1,81 @@
+.mainHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+.singleCard {
+  font-size: 1rem;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  transform: none;
+  font-size: 1em;
+  min-height: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin: 30px;
+}
+.singleCard:hover {
+  cursor: pointer;
+  z-index: 5;
+  background: #fff;
+  border: none;
+  -webkit-box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+  box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+.picture {
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.05);
+}
+.picture img {
+  width: 290px;
+}
+.content {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  background: 0 0;
+  margin: 0;
+  padding: 16px 16px;
+  font-size: 16px;
+}
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.tagLink a {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+.description {
+  margin-top: 8px;
+  /* clear: both; */
+  color: rgba(0, 0, 0, 0.68);
+}
+.foot {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  width: auto;
+  padding: 12px 16px;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+}
+.joinRight {
+  margin-left: auto;
+}
+.icon {
+  margin: 0px 6px 0 0;
+  width: auto;
+  height: 18px;
+}
